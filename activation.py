@@ -2,7 +2,7 @@ from layer import Layer
 import numpy as np
 
 class Activation(Layer):
-    def __inti__(self, activation, activation_prime):
+    def __init__(self, activation, activation_prime):
         self.activation = activation
         self.activation_prime = activation_prime
 
